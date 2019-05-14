@@ -1,0 +1,28 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "description": "Exercise Tracking Web App with MERN Stack with MongDB Atlas & Google Cloud Platform ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajnelsontirkey/exercise-tracker.git"
+  },
+  "keywords": [
+    "MERN",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "mongdb-atlas",
+    "google-cloud-platform"
+  ],
+  "author": "Pankaj Nelson Tirkey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pankajnelsontirkey/exercise-tracker/issues"
+  },
+  "homepage": "https://github.com/pankajnelsontirkey/exercise-tracker#readme"
+}
