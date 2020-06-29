@@ -9,18 +9,18 @@ import ExerciseList from './components/Exercises/ExerciseList/ExerciseList';
 import Navbar from './components/UI/Navbar';
 
 function App() {
-   return (
-      <Router>
-         <div className="container">
-            <Navbar />
-            <br />
-            <Route path="/" exact component={ExerciseList} />
-            <Route path="/exercises/add" exact component={CreateExercise} />
-            <Route path="/edit/:id" component={EditExercise} />
-            <Route path="/users" component={CreateUser} />
-         </div>
-      </Router>
-   );
+  return (
+    <Router>
+      <div className='container'>
+        <Navbar />
+        <br />
+        <Route path='/' exact component={ExerciseList} />
+        <Route path='/exercises/add' exact component={CreateExercise} />
+        <Route path='/edit/:id' component={EditExercise} />
+        <Route path='/users' component={CreateUser} />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
